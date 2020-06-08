@@ -1,0 +1,40 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20170623105438
+Username: SITCORP\a147t1
+RunAs User: SITCORP\a147t1
+Machine: SIT-BVCADM-01 (Microsoft Windows NT 6.1.7601 Service Pack 1)
+Host Application: C:\windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -Noprofile -Command & {Invoke-Command -ScriptBlock {Start-Transcript -Path d:\scripts\invoke-bulkstoragevmotion\output\output.txt; D:\scripts\Invoke-BulkStoragevMotion\Invoke-StoragevMotion.ps1; Invoke-StoragevMotion -InnerInputObject ; Stop-Transcript} }
+Process ID: 16988
+PSVersion: 5.0.10586.117
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0.10586.117
+BuildVersion: 10.0.10586.117
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is d:\scripts\invoke-bulkstoragevmotion\output\output.txt
+Invoke-StoragevMotion : The term 'Invoke-StoragevMotion' is not recognized as the name of a cmdlet, function, script 
+file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct 
+and try again.
+At line:1 char:176
++ ... oragevMotion\Invoke-StoragevMotion.ps1; Invoke-StoragevMotion -InnerI ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Invoke-StoragevMotion:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+Invoke-StoragevMotion : The term 'Invoke-StoragevMotion' is not recognized as
+the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is
+correct and try again.
+At line:1 char:176
++ ... oragevMotion\Invoke-StoragevMotion.ps1; Invoke-StoragevMotion -InnerI ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Invoke-StoragevMotion:String) [
+   ], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+**********************
+Windows PowerShell transcript end
+End time: 20170623105439
+**********************
