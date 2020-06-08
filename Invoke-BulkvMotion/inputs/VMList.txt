@@ -1,0 +1,16 @@
+tstbsv0055
+insightiq
+etc-dbwafgw-02
+ETC-WHDAST-VM2
+etc-dbwafgw-01
+ETC-WHSAST-VM3
+etc-nexp-40
+ETC-WHSAST-VM7
+etc-damvgw-07
+etc-damvgw-06
+ETC-WHSAST-VM2
+etc-dbwafgw-03
+etc-damvgw-05
+etc-damvgw-09
+etc-cisa-01
+ETC-WHSAST-VM5
