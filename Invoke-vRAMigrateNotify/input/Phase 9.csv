@@ -1,0 +1,89 @@
+Phase,vapp,VM Name,Contact Name,Contact Email Address,Product
+9,prddbv0044,prddbv0044,Mary Lu (Pradeep Ramakrishnan),Mary.Lu@ehi.com;Michel.A.Shanks@ehi.com;9836OpenSourceDBAs@na.erac.com,Enterprise Truck TelematicsDB
+9,prddbv0033,prddbv0033,Rob Radina,Text-#ECROSOnCallOrchPrimary@ehi.com;Michel.A.Shanks@ehi.com;9836OpenSourceDBAs@na.erac.com,Enterprise Corporate WebsitesDB
+9,prddbv0040,prddbv0040,Divya Vijaykumar,Divya.Vijaykumar@ehi.com;Michel.A.Shanks@ehi.com;9836OpenSourceDBAs@na.erac.com,Foreign Rental Billing (FRB)DB
+9,prddbv0043,prddbv0043,Rob Radina,Text-#ECROSOnCallOrchPrimary@ehi.com;Michel.A.Shanks@ehi.com;9836OpenSourceDBAs@na.erac.com,Reservation Orchestration
+9,prddbv0030,prddbv0030,Jen Magas,Text-#NMAOnCallOrchPrimary@ehi.com;Michel.A.Shanks@ehi.com;9836OpenSourceDBAs@na.erac.com,CTS NotifiDB
+9,upc-bn-0350,upc-bn-0350,Trent Dailey,Trent.Dailey@ehi.com;9836OpenSourceDBOnCall@na.erac.com;Michel.A.Shanks@ehi.com,Sonar
+9,prddbvcm,prddbvcm,Supriya Hans,RTLCOMPrimaryOnCall@ehi.com;Michel.A.Shanks@ehi.com;9836OpenSourceDBAs@na.erac.com,Alamo/National (WNG)DB
+9,ETC-SQL-07,ETC-SQL-07,Charlotte Hampton,Charlotte.A.Hampton@ehi.com;Daniel.R.Kossmann@ehi.com,IBM License Metric Tool (ILMT)DB
+9,prdbsv0021,prdbsv0021,Divya Vijaykumar,Divya.Vijaykumar@ehi.com,Rental Financial System (RFS)
+9,prdbsv0050,prdbsv0050,Divya Vijaykumar,Divya.Vijaykumar@ehi.com,Rental Financial System (RFS)
+9,prdapv0146,prdapv0146,Divya Vijaykumar,Divya.Vijaykumar@ehi.com,Foreign Rental Billing (FRB)
+9,prdapv0022,prdapv0022,Supriya Hans,RTLCOMPrimaryOnCall@ehi.com,Alamo/National (WNG)
+9,prdapv0023,prdapv0023,Supriya Hans,RTLCOMPrimaryOnCall@ehi.com,Alamo/National (WNG)
+9,ETC-CRM-13,ETC-CRM-13,Marc Barnett,Marc.Barnett@ehi.com;Evanne.Davis@ehi.com,Customer Relationship Manager (CRM)
+9,ETC-IBFAPP-01,ETC-IBFAPP-01,Charlotte Hampton,Charlotte.A.Hampton@ehi.com,IBM License Metric Tool (ILMT)
+9,prdapv0001,prdapv0001,Jen Magas,Text-#NMAOnCallOrchPrimary@ehi.com,CTS Notifi
+9,prdapv0002,prdapv0002,Jen Magas,Text-#NMAOnCallOrchPrimary@ehi.com,CTS Notifi
+9,prdapv0003,prdapv0003,Jen Magas,Text-#NMAOnCallOrchPrimary@ehi.com,CTS Notifi
+9,prdapv0004,prdapv0004,Jen Magas,Text-#NMAOnCallOrchPrimary@ehi.com,CTS Notifi
+9,prdapv0053,prdapv0053,Divya Vijaykumar,Divya.Vijaykumar@ehi.com,Rental Bill Delivery
+9,prdapv0054,prdapv0054,Divya Vijaykumar,Divya.Vijaykumar@ehi.com,Rental Bill Delivery
+9,prdapv0055,prdapv0055,Divya Vijaykumar,Divya.Vijaykumar@ehi.com,Rental Bill Delivery
+9,prdapv0056,prdapv0056,Divya Vijaykumar,Divya.Vijaykumar@ehi.com,Rental Bill Delivery
+9,prdapv0165,prdapv0165,,,Application CM Automation
+9,prdapv0207,prdapv0207,Mary Lu (Pradeep Ramakrishnan),Mary.Lu@ehi.com,Enterprise Truck Telematics
+9,prdapv0208,prdapv0208,Mary Lu (Pradeep Ramakrishnan),Mary.Lu@ehi.com,Enterprise Truck Telematics
+9,prdema0001,prdema0001,Rob Radina,Text-#ECROSOnCallOrchPrimary@ehi.com,Enterprise Corporate Websites
+9,prdemp0001,prdemp0001,Rob Radina,Text-#ECROSOnCallOrchPrimary@ehi.com,Enterprise Corporate Websites
+9,prdemp0002,prdemp0002,Rob Radina,Text-#ECROSOnCallOrchPrimary@ehi.com,Enterprise Corporate Websites
+9,prdemp0003,prdemp0003,Rob Radina,Text-#ECROSOnCallOrchPrimary@ehi.com,Enterprise Corporate Websites
+9,prdemp0004,prdemp0004,Rob Radina,Text-#ECROSOnCallOrchPrimary@ehi.com,Enterprise Corporate Websites
+9,ETC-PDR-02,etc-pdr-02,Tim Howard,Tim.Howard@ehi.com,PowerDesigner
+9,prdapv0014,prdapv0014,Ehsan Haider,ehsan.haider@ehi.com,AppSec Components
+9,prdapv0015,prdapv0015,Ehsan Haider,ehsan.haider@ehi.com,AppSec Components
+9,prdapv0016,prdapv0016,Ehsan Haider,ehsan.haider@ehi.com,AppSec Components
+9,prdapv0167,prdapv0167,Ehsan Haider,ehsan.haider@ehi.com,AppSec Components
+9,prdapv0036,prdapv0036,Omar Modigunta,"#ReservationServices-PrimaryOn-Call@ehi.com 
+",Natres (National Reservations)
+9,prdapv0052,prdapv0052,Daniel Sands,Daniel.Sands@ehi.com,Automated Rental Management System (ARMS)
+9,prdapv0067,prdapv0067,Daniel Sands,Daniel.Sands@ehi.com,Automated Rental Management System (ARMS)
+9,prdapv0068,prdapv0068,Daniel Sands,Daniel.Sands@ehi.com,Automated Rental Management System (ARMS)
+9,prdapv0175,prdapv0175,Trent Dailey,Trent.Dailey@ehi.com,Jenkins Master
+9,prdapv0196,prdapv0196,Rich Kolkmeier,Richard.A.Kolkmeier@ehi.com,CA DevTest
+9,prdapv0197,prdapv0197,Rich Kolkmeier,Richard.A.Kolkmeier@ehi.com,CA DevTest
+9,prdapv0198,prdapv0198,Rich Kolkmeier,Richard.A.Kolkmeier@ehi.com,CA DevTest
+9,prdapv0199,prdapv0199,Rich Kolkmeier,Richard.A.Kolkmeier@ehi.com,CA DevTest
+9,prdapv0205,prdapv0205,Daniel Sands,Daniel.Sands@ehi.com,Automated Rental Management System (ARMS)
+9,prdapv0209,prdapv0209,,,AppSec Components
+9,prdapv0210,prdapv0210,,,AppSec Components
+9,prdapv0211,prdapv0211,,,AppSec Components
+9,prdapv0216,prdapv0216,Daniel Sands,Daniel.Sands@ehi.com, 
+9,prdapv0217,prdapv0217,Daniel Sands,Daniel.Sands@ehi.com, 
+9,prdapv0218,prdapv0218,Daniel Sands,Daniel.Sands@ehi.com, 
+9,prdapv0219,prdapv0219,Daniel Sands,Daniel.Sands@ehi.com, 
+9,prdapxd1,prdapxd1,Trent Dailey,Trent.Dailey@ehi.com,Artifactory Pro
+9,prdbsv0068,prdbsv0068,Trent Dailey,Trent.Dailey@ehi.com,Artifactory Pro
+9,prdbsv0062,prdbsv0062,Trent Dailey,Trent.Dailey@ehi.com,Jenkins Master
+9,visnpapp115,visnpapp115,Rich Kolkmeier,Richard.A.Kolkmeier@ehi.com,CA DevTest
+9,visnpapp134,visnpapp134,Rich Kolkmeier,Richard.A.Kolkmeier@ehi.com,CA DevTest
+9,visnpapp167,visnpapp167,Rich Kolkmeier,Richard.A.Kolkmeier@ehi.com,CA DevTest
+9,visnpapp171,visnpapp171,Rich Kolkmeier,Richard.A.Kolkmeier@ehi.com,CA DevTest
+9,wpc-dni-0402,wpc-dni-0402,Georgios Poursanidis,Georgios.Poursanidis@ehi.com,ARCROSS (D-Class) - (EU)
+9,wpc-dni-0404,wpc-dni-0404,Georgios Poursanidis,Georgios.Poursanidis@ehi.com,ARCROSS (D-Class) - (EU)
+9,devapv0458,devapv0458,,,Pricing Maintenance
+9,ETC-CRM-14,ETC-CRM-14,Marc Barnett,Marc.Barnett@ehi.com;Evanne.Davis@ehi.com,Customer Relationship Manager (CRM)
+9,ETC-EMS-02,ETC-EMS-02,Parker Larson,Parker.J.Larson@ehi.com,Payment Gateway (ACI/WinPay/IPG)
+9,ETC-LWTADM-01,ETC-LWTADM-01,Sergio Pinilla,Sergio.Pinilla@ehi.com,Windows Script Maintenance and Creation
+9,prdapv0005,prdapv0005,,,Tomcat
+9,prdapv0006,prdapv0006,Michael Geier,Michael.D.Geier@ehi.com,Managed File Transfer - IBM Sterling File Gateway
+9,prdapv0007,prdapv0007,Michael Geier,Michael.D.Geier@ehi.com,Managed File Transfer - IBM Sterling File Gateway
+9,prdapv0008,prdapv0008,Michael Geier,Michael.D.Geier@ehi.com,Managed File Transfer - IBM Sterling File Gateway
+9,prdapv0200,prdapv0200,Srini Vadlamudi,Srinivasa.R.Vadlamudi@ehi.com,Payment Service
+9,prdapv0201,prdapv0201,Srini Vadlamudi,Srinivasa.R.Vadlamudi@ehi.com,Payment Service
+9,prdapv0213,prdapv0213,,, 
+9,prdapv0214,prdapv0214,,, 
+9,prdbsv0046,prdbsv0046,Craig Hausner,Craig.Hausner@ehi.com,Custom Automation - SMWeb
+9,prdbsv0047,prdbsv0047,Craig Hausner,Craig.Hausner@ehi.com,Custom Automation - SMWeb
+9,prdbsv0048,prdbsv0048,Craig Hausner,Craig.Hausner@ehi.com,Custom Automation - SMWeb
+9,prdbsv0049,prdbsv0049,Craig Hausner,Craig.Hausner@ehi.com,Custom Automation - SMWeb
+9,prdbsv0072,prdbsv0072,,,Unclaimed
+9,prdbsv0073,prdbsv0073,,,Unclaimed
+9,prdsmxpn,prdsmxpn,Michael Geier,Michael.D.Geier@ehi.com,Managed File Transfer - IBM Sterling File Gateway
+9,visnpapp218,visnpapp218,Divya Vijaykumar,Divya.Vijaykumar@ehi.com,Rental Financial System (RFS)
+9,vispdapp147,vispdapp147,Divya Vijaykumar,Divya.Vijaykumar@ehi.com,Rental Bill Delivery
+9,vispdapp148,vispdapp148,Divya Vijaykumar,Divya.Vijaykumar@ehi.com,Rental Bill Delivery
+9,vispdapp169,vispdapp169,Michael Geier,Michael.D.Geier@ehi.com,Managed File Transfer - IBM Sterling File Gateway
+9,zzzema0012,zzzema0012,Rob Radina,Text-#ECROSOnCallOrchPrimary@ehi.com,Enterprise Corporate Websites
+9,zzzemp0012,zzzemp0012,Rob Radina,Text-#ECROSOnCallOrchPrimary@ehi.com,Enterprise Corporate Websites

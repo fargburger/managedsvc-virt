@@ -1,0 +1,1279 @@
+<?xml version="1.0" ?>
+<helpItems schema="maml" xmlns="http://msh">
+ <command:command xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:maml="http://schemas.microsoft.com/maml/2004/10">
+  <command:details>
+   <command:name>
+    Export-UcsPSSession
+   </command:name>
+   <maml:description>
+    <maml:para>
+     Exports Managed Object of type BaseHandle.
+    </maml:para>
+   </maml:description>
+   <maml:copyright>
+    <maml:para>
+     Export
+     UcsPSSession
+    </maml:para>
+   </maml:copyright>
+   <maml:verb/>
+   <maml:noun/>
+  </command:details>
+  <maml:description>
+   <maml:para>
+    Exports Managed Object of type BaseHandle.
+   </maml:para>
+  </maml:description>
+  <command:syntax>
+   <command:syntaxItem>
+    <maml:name>
+     Export-UcsPSSession
+    </maml:name>
+    <command:parameter required="true">
+     <maml:name>
+      LiteralPath
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      string
+     </command:parameterValue>
+    </command:parameter>
+    <command:parameter required="true">
+     <maml:name>
+      Key
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      SecureString
+     </command:parameterValue>
+    </command:parameter>
+    <command:parameter>
+     <maml:name>
+      Merge
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+    </command:parameter>
+    <command:parameter>
+     <maml:name>
+      Ucs
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       Specifies a list of ucs connection object(s)
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      BaseHandle[]
+     </command:parameterValue>
+    </command:parameter>
+   </command:syntaxItem>
+   <command:syntaxItem>
+    <maml:name>
+     Export-UcsPSSession
+    </maml:name>
+    <command:parameter required="true">
+     <maml:name>
+      Path
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      string
+     </command:parameterValue>
+    </command:parameter>
+    <command:parameter required="true">
+     <maml:name>
+      Key
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      SecureString
+     </command:parameterValue>
+    </command:parameter>
+    <command:parameter>
+     <maml:name>
+      Merge
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+    </command:parameter>
+    <command:parameter>
+     <maml:name>
+      Ucs
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       Specifies a list of ucs connection object(s)
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      BaseHandle[]
+     </command:parameterValue>
+    </command:parameter>
+   </command:syntaxItem>
+  </command:syntax>
+  <command:parameters>
+   <command:parameter required="true">
+    <maml:name>
+     LiteralPath
+    </maml:name>
+    <maml:description>
+     <maml:para>
+      TBD.
+     </maml:para>
+    </maml:description>
+    <command:parameterValue required="true">
+     string
+    </command:parameterValue>
+   </command:parameter>
+   <command:parameter required="true">
+    <maml:name>
+     Path
+    </maml:name>
+    <maml:description>
+     <maml:para>
+      TBD.
+     </maml:para>
+    </maml:description>
+    <command:parameterValue required="true">
+     string
+    </command:parameterValue>
+   </command:parameter>
+   <command:parameter required="true">
+    <maml:name>
+     Key
+    </maml:name>
+    <maml:description>
+     <maml:para>
+      TBD.
+     </maml:para>
+    </maml:description>
+    <command:parameterValue required="true">
+     SecureString
+    </command:parameterValue>
+   </command:parameter>
+   <command:parameter required="true">
+    <maml:name>
+     Merge
+    </maml:name>
+    <maml:description>
+     <maml:para>
+      TBD.
+     </maml:para>
+    </maml:description>
+   </command:parameter>
+   <command:parameter required="true">
+    <maml:name>
+     Ucs
+    </maml:name>
+    <maml:description>
+     <maml:para>
+      Specifies a list of ucs connection object(s)
+     </maml:para>
+    </maml:description>
+    <command:parameterValue required="true">
+     BaseHandle[]
+    </command:parameterValue>
+   </command:parameter>
+  </command:parameters>
+ </command:command>
+ <command:command xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:maml="http://schemas.microsoft.com/maml/2004/10">
+  <command:details>
+   <command:name>
+    Get-UcsCcoImage
+   </command:name>
+   <maml:description>
+    <maml:para>
+     Gets Managed Object of type .
+    </maml:para>
+   </maml:description>
+   <maml:copyright>
+    <maml:para>
+     Get
+     UcsCcoImage
+    </maml:para>
+   </maml:copyright>
+   <maml:verb/>
+   <maml:noun/>
+  </command:details>
+  <maml:description>
+   <maml:para>
+    Gets Managed Object of type .
+   </maml:para>
+  </maml:description>
+  <command:syntax>
+   <command:syntaxItem>
+    <maml:name>
+     Get-UcsCcoImage
+    </maml:name>
+    <command:parameter pipeline="true (ByPropertyValue)" required="true">
+     <maml:name>
+      CcoImage
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      UcsCcoImage
+     </command:parameterValue>
+    </command:parameter>
+    <command:parameter required="true">
+     <maml:name>
+      Path
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      string
+     </command:parameterValue>
+    </command:parameter>
+   </command:syntaxItem>
+  </command:syntax>
+  <command:parameters>
+   <command:parameter required="true">
+    <maml:name>
+     CcoImage
+    </maml:name>
+    <maml:description>
+     <maml:para>
+      TBD.
+     </maml:para>
+    </maml:description>
+    <command:parameterValue required="true">
+     UcsCcoImage
+    </command:parameterValue>
+   </command:parameter>
+   <command:parameter required="true">
+    <maml:name>
+     Path
+    </maml:name>
+    <maml:description>
+     <maml:para>
+      TBD.
+     </maml:para>
+    </maml:description>
+    <command:parameterValue required="true">
+     string
+    </command:parameterValue>
+   </command:parameter>
+  </command:parameters>
+ </command:command>
+ <command:command xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:maml="http://schemas.microsoft.com/maml/2004/10">
+  <command:details>
+   <command:name>
+    Get-UcsCcoImageList
+   </command:name>
+   <maml:description>
+    <maml:para>
+     Gets Managed Object of type UcsCcoImage.
+    </maml:para>
+   </maml:description>
+   <maml:copyright>
+    <maml:para>
+     Get
+     UcsCcoImageList
+    </maml:para>
+   </maml:copyright>
+   <maml:verb/>
+   <maml:noun/>
+  </command:details>
+  <maml:description>
+   <maml:para>
+    Gets Managed Object of type UcsCcoImage.
+   </maml:para>
+  </maml:description>
+  <command:syntax>
+   <command:syntaxItem>
+    <maml:name>
+     Get-UcsCcoImageList
+    </maml:name>
+    <command:parameter required="true">
+     <maml:name>
+      Ucsm
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+    </command:parameter>
+    <command:parameter>
+     <maml:name>
+      MdfId
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      uint[]
+     </command:parameterValue>
+    </command:parameter>
+    <command:parameter required="true">
+     <maml:name>
+      Credential
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      PSCredential
+     </command:parameterValue>
+    </command:parameter>
+    <command:parameter>
+     <maml:name>
+      Proxy
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      WebProxy
+     </command:parameterValue>
+    </command:parameter>
+   </command:syntaxItem>
+   <command:syntaxItem>
+    <maml:name>
+     Get-UcsCcoImageList
+    </maml:name>
+    <command:parameter required="true">
+     <maml:name>
+      UcsCentral
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+    </command:parameter>
+    <command:parameter>
+     <maml:name>
+      MdfId
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      uint[]
+     </command:parameterValue>
+    </command:parameter>
+    <command:parameter required="true">
+     <maml:name>
+      Credential
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      PSCredential
+     </command:parameterValue>
+    </command:parameter>
+    <command:parameter>
+     <maml:name>
+      Proxy
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      WebProxy
+     </command:parameterValue>
+    </command:parameter>
+   </command:syntaxItem>
+   <command:syntaxItem>
+    <maml:name>
+     Get-UcsCcoImageList
+    </maml:name>
+    <command:parameter required="true">
+     <maml:name>
+      Imc
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+    </command:parameter>
+    <command:parameter required="true">
+     <maml:name>
+      Model
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      string
+     </command:parameterValue>
+    </command:parameter>
+    <command:parameter required="true">
+     <maml:name>
+      Credential
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      PSCredential
+     </command:parameterValue>
+    </command:parameter>
+    <command:parameter>
+     <maml:name>
+      Proxy
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      WebProxy
+     </command:parameterValue>
+    </command:parameter>
+   </command:syntaxItem>
+   <command:syntaxItem>
+    <maml:name>
+     Get-UcsCcoImageList
+    </maml:name>
+    <command:parameter required="true">
+     <maml:name>
+      Imc
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+    </command:parameter>
+    <command:parameter>
+     <maml:name>
+      MdfId
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      uint[]
+     </command:parameterValue>
+    </command:parameter>
+    <command:parameter required="true">
+     <maml:name>
+      Credential
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      PSCredential
+     </command:parameterValue>
+    </command:parameter>
+    <command:parameter>
+     <maml:name>
+      Proxy
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      WebProxy
+     </command:parameterValue>
+    </command:parameter>
+   </command:syntaxItem>
+  </command:syntax>
+  <command:parameters>
+   <command:parameter required="true">
+    <maml:name>
+     Ucsm
+    </maml:name>
+    <maml:description>
+     <maml:para>
+      TBD.
+     </maml:para>
+    </maml:description>
+   </command:parameter>
+   <command:parameter required="true">
+    <maml:name>
+     UcsCentral
+    </maml:name>
+    <maml:description>
+     <maml:para>
+      TBD.
+     </maml:para>
+    </maml:description>
+   </command:parameter>
+   <command:parameter required="true">
+    <maml:name>
+     Imc
+    </maml:name>
+    <maml:description>
+     <maml:para>
+      TBD.
+     </maml:para>
+    </maml:description>
+   </command:parameter>
+   <command:parameter required="true">
+    <maml:name>
+     MdfId
+    </maml:name>
+    <maml:description>
+     <maml:para>
+      TBD.
+     </maml:para>
+    </maml:description>
+    <command:parameterValue required="true">
+     uint[]
+    </command:parameterValue>
+   </command:parameter>
+   <command:parameter required="true">
+    <maml:name>
+     Model
+    </maml:name>
+    <maml:description>
+     <maml:para>
+      TBD.
+     </maml:para>
+    </maml:description>
+    <command:parameterValue required="true">
+     string
+    </command:parameterValue>
+   </command:parameter>
+   <command:parameter required="true">
+    <maml:name>
+     Credential
+    </maml:name>
+    <maml:description>
+     <maml:para>
+      TBD.
+     </maml:para>
+    </maml:description>
+    <command:parameterValue required="true">
+     PSCredential
+    </command:parameterValue>
+   </command:parameter>
+   <command:parameter required="true">
+    <maml:name>
+     Proxy
+    </maml:name>
+    <maml:description>
+     <maml:para>
+      TBD.
+     </maml:para>
+    </maml:description>
+    <command:parameterValue required="true">
+     WebProxy
+    </command:parameterValue>
+   </command:parameter>
+  </command:parameters>
+ </command:command>
+ <command:command xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:maml="http://schemas.microsoft.com/maml/2004/10">
+  <command:details>
+   <command:name>
+    Get-UcsPSSession
+   </command:name>
+   <maml:description>
+    <maml:para>
+     Gets Managed Object of type BaseHandle.
+    </maml:para>
+   </maml:description>
+   <maml:copyright>
+    <maml:para>
+     Get
+     UcsPSSession
+    </maml:para>
+   </maml:copyright>
+   <maml:verb/>
+   <maml:noun/>
+  </command:details>
+  <maml:description>
+   <maml:para>
+    Gets Managed Object of type BaseHandle.
+   </maml:para>
+  </maml:description>
+  <command:syntax>
+   <command:syntaxItem>
+    <maml:name>
+     Get-UcsPSSession
+    </maml:name>
+    <command:parameter>
+     <maml:name>
+      Ucs
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       Specifies a list of ucs connection object(s)
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      BaseHandle[]
+     </command:parameterValue>
+    </command:parameter>
+   </command:syntaxItem>
+  </command:syntax>
+  <command:parameters>
+   <command:parameter required="true">
+    <maml:name>
+     Ucs
+    </maml:name>
+    <maml:description>
+     <maml:para>
+      Specifies a list of ucs connection object(s)
+     </maml:para>
+    </maml:description>
+    <command:parameterValue required="true">
+     BaseHandle[]
+    </command:parameterValue>
+   </command:parameter>
+  </command:parameters>
+ </command:command>
+ <command:command xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:maml="http://schemas.microsoft.com/maml/2004/10">
+  <command:details>
+   <command:name>
+    Get-UcsPowerToolCommunity
+   </command:name>
+   <maml:description>
+    <maml:para>
+     Gets Managed Object of type .
+    </maml:para>
+   </maml:description>
+   <maml:copyright>
+    <maml:para>
+     Get
+     UcsPowerToolCommunity
+    </maml:para>
+   </maml:copyright>
+   <maml:verb/>
+   <maml:noun/>
+  </command:details>
+  <maml:description>
+   <maml:para>
+    Gets Managed Object of type .
+   </maml:para>
+  </maml:description>
+  <command:syntax>
+   <command:syntaxItem>
+    <maml:name>
+     Get-UcsPowerToolCommunity
+    </maml:name>
+   </command:syntaxItem>
+  </command:syntax>
+  <command:parameters/>
+ </command:command>
+ <command:command xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:maml="http://schemas.microsoft.com/maml/2004/10">
+  <command:details>
+   <command:name>
+    Get-UcsPowerToolConfiguration
+   </command:name>
+   <maml:description>
+    <maml:para>
+     Gets Managed Object of type PowerToolConfiguration.
+    </maml:para>
+   </maml:description>
+   <maml:copyright>
+    <maml:para>
+     Get
+     UcsPowerToolConfiguration
+    </maml:para>
+   </maml:copyright>
+   <maml:verb/>
+   <maml:noun/>
+  </command:details>
+  <maml:description>
+   <maml:para>
+    Gets Managed Object of type PowerToolConfiguration.
+   </maml:para>
+  </maml:description>
+  <command:syntax>
+   <command:syntaxItem>
+    <maml:name>
+     Get-UcsPowerToolConfiguration
+    </maml:name>
+   </command:syntaxItem>
+  </command:syntax>
+  <command:parameters/>
+ </command:command>
+ <command:command xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:maml="http://schemas.microsoft.com/maml/2004/10">
+  <command:details>
+   <command:name>
+    Get-UcsSoftwareImage
+   </command:name>
+   <maml:description>
+    <maml:para>
+     Gets Managed Object of type . 
+    </maml:para>
+   </maml:description>
+   <maml:copyright>
+    <maml:para>
+     Get
+     UcsSoftwareImage
+    </maml:para>
+   </maml:copyright>
+   <maml:verb/>
+   <maml:noun/>
+  </command:details>
+  <maml:description>
+   <maml:para>
+    Gets Managed Object of type . 
+   </maml:para>
+  </maml:description>
+  <command:syntax>
+   <command:syntaxItem>
+    <maml:name>
+     Get-UcsSoftwareImage
+    </maml:name>
+    <command:parameter pipeline="true (ByPropertyValue)" required="true">
+     <maml:name>
+      SoftwareImage
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      ImageDetails
+     </command:parameterValue>
+    </command:parameter>
+    <command:parameter required="true">
+     <maml:name>
+      Path
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      string
+     </command:parameterValue>
+    </command:parameter>
+    <command:parameter>
+     <maml:name>
+      EulaAccepted
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+    </command:parameter>
+   </command:syntaxItem>
+  </command:syntax>
+  <command:parameters>
+   <command:parameter required="true">
+    <maml:name>
+     SoftwareImage
+    </maml:name>
+    <maml:description>
+     <maml:para>
+      TBD.
+     </maml:para>
+    </maml:description>
+    <command:parameterValue required="true">
+     ImageDetails
+    </command:parameterValue>
+   </command:parameter>
+   <command:parameter required="true">
+    <maml:name>
+     Path
+    </maml:name>
+    <maml:description>
+     <maml:para>
+      TBD.
+     </maml:para>
+    </maml:description>
+    <command:parameterValue required="true">
+     string
+    </command:parameterValue>
+   </command:parameter>
+   <command:parameter required="true">
+    <maml:name>
+     EulaAccepted
+    </maml:name>
+    <maml:description>
+     <maml:para>
+      TBD.
+     </maml:para>
+    </maml:description>
+   </command:parameter>
+  </command:parameters>
+ </command:command>
+ <command:command xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:maml="http://schemas.microsoft.com/maml/2004/10">
+  <command:details>
+   <command:name>
+    Get-UcsSoftwareImageList
+   </command:name>
+   <maml:description>
+    <maml:para>
+     Gets Managed Object of type ImageDetails. 
+    </maml:para>
+   </maml:description>
+   <maml:copyright>
+    <maml:para>
+     Get
+     UcsSoftwareImageList
+    </maml:para>
+   </maml:copyright>
+   <maml:verb/>
+   <maml:noun/>
+  </command:details>
+  <maml:description>
+   <maml:para>
+    Gets Managed Object of type ImageDetails. 
+   </maml:para>
+  </maml:description>
+  <command:syntax>
+   <command:syntaxItem>
+    <maml:name>
+     Get-UcsSoftwareImageList
+    </maml:name>
+    <command:parameter required="true">
+     <maml:name>
+      Credential
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      PSCredential
+     </command:parameterValue>
+    </command:parameter>
+    <command:parameter>
+     <maml:name>
+      Category
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      string
+     </command:parameterValue>
+    </command:parameter>
+    <command:parameter>
+     <maml:name>
+      Type
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      string
+     </command:parameterValue>
+    </command:parameter>
+    <command:parameter>
+     <maml:name>
+      Model
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      string
+     </command:parameterValue>
+    </command:parameter>
+    <command:parameter>
+     <maml:name>
+      Version
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      string
+     </command:parameterValue>
+    </command:parameter>
+    <command:parameter>
+     <maml:name>
+      Proxy
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      WebProxy
+     </command:parameterValue>
+    </command:parameter>
+    <command:parameter>
+     <maml:name>
+      Ucs
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       Specifies a list of ucs connection object(s)
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      BaseHandle[]
+     </command:parameterValue>
+    </command:parameter>
+   </command:syntaxItem>
+   <command:syntaxItem>
+    <maml:name>
+     Get-UcsSoftwareImageList
+    </maml:name>
+    <command:parameter required="true">
+     <maml:name>
+      Credential
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      PSCredential
+     </command:parameterValue>
+    </command:parameter>
+    <command:parameter required="true">
+     <maml:name>
+      MdfId
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      uint
+     </command:parameterValue>
+    </command:parameter>
+    <command:parameter required="true">
+     <maml:name>
+      SoftwareId
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      uint
+     </command:parameterValue>
+    </command:parameter>
+    <command:parameter>
+     <maml:name>
+      Version
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      string
+     </command:parameterValue>
+    </command:parameter>
+    <command:parameter>
+     <maml:name>
+      Proxy
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      WebProxy
+     </command:parameterValue>
+    </command:parameter>
+    <command:parameter>
+     <maml:name>
+      Ucs
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       Specifies a list of ucs connection object(s)
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      BaseHandle[]
+     </command:parameterValue>
+    </command:parameter>
+   </command:syntaxItem>
+  </command:syntax>
+  <command:parameters>
+   <command:parameter required="true">
+    <maml:name>
+     Credential
+    </maml:name>
+    <maml:description>
+     <maml:para>
+      TBD.
+     </maml:para>
+    </maml:description>
+    <command:parameterValue required="true">
+     PSCredential
+    </command:parameterValue>
+   </command:parameter>
+   <command:parameter required="true">
+    <maml:name>
+     Category
+    </maml:name>
+    <maml:description>
+     <maml:para>
+      TBD.
+     </maml:para>
+    </maml:description>
+    <command:parameterValue required="true">
+     string
+    </command:parameterValue>
+   </command:parameter>
+   <command:parameter required="true">
+    <maml:name>
+     Type
+    </maml:name>
+    <maml:description>
+     <maml:para>
+      TBD.
+     </maml:para>
+    </maml:description>
+    <command:parameterValue required="true">
+     string
+    </command:parameterValue>
+   </command:parameter>
+   <command:parameter required="true">
+    <maml:name>
+     Model
+    </maml:name>
+    <maml:description>
+     <maml:para>
+      TBD.
+     </maml:para>
+    </maml:description>
+    <command:parameterValue required="true">
+     string
+    </command:parameterValue>
+   </command:parameter>
+   <command:parameter required="true">
+    <maml:name>
+     MdfId
+    </maml:name>
+    <maml:description>
+     <maml:para>
+      TBD.
+     </maml:para>
+    </maml:description>
+    <command:parameterValue required="true">
+     uint
+    </command:parameterValue>
+   </command:parameter>
+   <command:parameter required="true">
+    <maml:name>
+     SoftwareId
+    </maml:name>
+    <maml:description>
+     <maml:para>
+      TBD.
+     </maml:para>
+    </maml:description>
+    <command:parameterValue required="true">
+     uint
+    </command:parameterValue>
+   </command:parameter>
+   <command:parameter required="true">
+    <maml:name>
+     Version
+    </maml:name>
+    <maml:description>
+     <maml:para>
+      TBD.
+     </maml:para>
+    </maml:description>
+    <command:parameterValue required="true">
+     string
+    </command:parameterValue>
+   </command:parameter>
+   <command:parameter required="true">
+    <maml:name>
+     Proxy
+    </maml:name>
+    <maml:description>
+     <maml:para>
+      TBD.
+     </maml:para>
+    </maml:description>
+    <command:parameterValue required="true">
+     WebProxy
+    </command:parameterValue>
+   </command:parameter>
+   <command:parameter required="true">
+    <maml:name>
+     Ucs
+    </maml:name>
+    <maml:description>
+     <maml:para>
+      Specifies a list of ucs connection object(s)
+     </maml:para>
+    </maml:description>
+    <command:parameterValue required="true">
+     BaseHandle[]
+    </command:parameterValue>
+   </command:parameter>
+  </command:parameters>
+ </command:command>
+ <command:command xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:maml="http://schemas.microsoft.com/maml/2004/10">
+  <command:details>
+   <command:name>
+    Set-UcsPowerToolConfiguration
+   </command:name>
+   <maml:description>
+    <maml:para>
+     Sets Managed Object of type .
+    </maml:para>
+   </maml:description>
+   <maml:copyright>
+    <maml:para>
+     Set
+     UcsPowerToolConfiguration
+    </maml:para>
+   </maml:copyright>
+   <maml:verb/>
+   <maml:noun/>
+  </command:details>
+  <maml:description>
+   <maml:para>
+    Sets Managed Object of type .
+   </maml:para>
+  </maml:description>
+  <command:syntax>
+   <command:syntaxItem>
+    <maml:name>
+     Set-UcsPowerToolConfiguration
+    </maml:name>
+    <command:parameter>
+     <maml:name>
+      SupportMultipleDefaultUcs
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      bool
+     </command:parameterValue>
+    </command:parameter>
+    <command:parameter>
+     <maml:name>
+      InvalidCertificateAction
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       TBD.
+      </maml:para>
+     </maml:description>
+     <command:parameterValue required="true">
+      InvalidCertificateHandling
+     </command:parameterValue>
+    </command:parameter>
+    <command:parameter>
+     <maml:name>
+      Force
+     </maml:name>
+     <maml:description>
+      <maml:para>
+       Force Operation. There will be no prompts for confirmation.
+      </maml:para>
+     </maml:description>
+    </command:parameter>
+   </command:syntaxItem>
+  </command:syntax>
+  <command:parameters>
+   <command:parameter required="true">
+    <maml:name>
+     SupportMultipleDefaultUcs
+    </maml:name>
+    <maml:description>
+     <maml:para>
+      TBD.
+     </maml:para>
+    </maml:description>
+    <command:parameterValue required="true">
+     bool
+    </command:parameterValue>
+   </command:parameter>
+   <command:parameter required="true">
+    <maml:name>
+     InvalidCertificateAction
+    </maml:name>
+    <maml:description>
+     <maml:para>
+      TBD.
+     </maml:para>
+    </maml:description>
+    <command:parameterValue required="true">
+     InvalidCertificateHandling
+    </command:parameterValue>
+   </command:parameter>
+   <command:parameter required="true">
+    <maml:name>
+     Force
+    </maml:name>
+    <maml:description>
+     <maml:para>
+      Force Operation. There will be no prompts for confirmation.
+     </maml:para>
+    </maml:description>
+   </command:parameter>
+  </command:parameters>
+ </command:command>
+</helpItems>
+
