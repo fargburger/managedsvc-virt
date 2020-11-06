@@ -1,0 +1,2 @@
+h-vsan-msn-01.hmstestlab.local
+h-vsan-msn-02.hmstestlab.local
